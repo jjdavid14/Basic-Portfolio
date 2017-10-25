@@ -141,6 +141,22 @@ ul.nav-tabs {
 	margin: 0;
 }
 
+.overlay {
+	display: hidden;
+}
+
+.overlay {
+	width: 100%;
+	height: 152px;
+	background-color: rgba(74,170,175,0.0);
+	position: absolute;
+}
+
+
+.overlay:hover {
+	background-color: rgba(74,170,175,0.5);
+}
+
 .project-item h5 {
 	width: 100%;
 	color: #fff;
